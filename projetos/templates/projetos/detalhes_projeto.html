@@ -1,0 +1,16 @@
+<!-- projetos/templates/projetos/detalhes_projeto.html -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Detalhes do Projeto</title>
+</head>
+<body>
+    <h1>{{ projeto.nome }}</h1>
+    <p><strong>Descrição:</strong> {{ projeto.descricao }}</p>
+    <p><strong>Data de Início:</strong> {{ projeto.data_inicio }}</p>
+    <p><strong>Data de Fim:</strong> {{ projeto.data_fim }}</p>
+
+    <a href="{% url 'projetos:lista_projetos' %}">Voltar para a lista de projetos</a>
+</body>
+</html>

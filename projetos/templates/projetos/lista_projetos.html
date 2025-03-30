@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de Projetos</title>
+</head>
+<body>
+    <h1>Lista de Projetos</h1>
+
+<ul>
+    {% for projeto in projetos %}
+        <li>{{ projeto.nome }} - {{ projeto.descricao }}</li>
+    {% empty %}
+        <li>Nenhum projeto encontrado.</li>
+    {% endfor %}
+</ul>
+
+
+    <a href="{% url 'projetos:adicionar_projeto' %}">Adicionar Novo Projeto</a>
+</body>
+</html>
