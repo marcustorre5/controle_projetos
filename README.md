@@ -14,6 +14,7 @@ Este projeto é um **sistema de controle de entrada de projetos** desenvolvido p
 - **Django**: Framework para desenvolvimento web.
 - **HTML**: Linguagem de marcação para estruturação das páginas web.
 - **CSS**: Estilização das páginas e interfaces.
+- **JavaScript**: Usado para interatividade e dinamismo no front-end.
 - **PostgreSQL**: Banco de dados utilizado para armazenar as informações do sistema.
 
 ## Como Rodar o Projeto
@@ -119,5 +120,7 @@ controle-entrada-projetos/
 │   └── templates/             # Templates HTML
 ├── manage.py                  # Comando de administração do Django
 ├── requirements.txt           # Arquivo de dependências do Python
+
+```
 
 **Desenvolvido por: Marcus Torres**
